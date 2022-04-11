@@ -5,11 +5,11 @@ class ElectricLamp {
 
     turnOff() {
         this.status = false;
-        alert("Đã tắt đèn ");
+        console.log("Đã tắt đèn ");
     }
 
     turnOn() {
         this.status = true;
-        alert("Đã bật đèn ");
+        console.log("Đã bật đèn ");
     }
 }

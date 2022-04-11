@@ -15,13 +15,13 @@ class SwitchButton {
 
     switchOff() {
         this.status = false;
-        alert("Đã tắt công tắc")
+        console.log("Đã tắt công tắc");
         this.lamp.turnOff();
     }
 
     switchOn() {
         this.status = true;
-        alert("Đã bật công tắc")
+        console.log("Đã bật công tắc");
         this.lamp.turnOn();
     }
 }
